@@ -1,6 +1,6 @@
 {
   "name": "kloud",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "aliyun OSS(Open Storage Service) lib.",
   "main": "lib/index.js",
   "scripts": {
