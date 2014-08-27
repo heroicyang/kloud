@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install kloud --save
+npm install kloud
 ```
 
 ## Usage
