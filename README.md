@@ -84,7 +84,7 @@ fs.stat('./README.md', function(err, stat) {
 })
 ```
 
-Also, you can use `Client.putBuffer(buffer, filename, headers, callback)` to put a sting or buffer data:
+Also, you can use `Client.putBuffer(buffer, filename, headers, callback)` to put a string or buffer data:
 
 ```javascript
 var buf = new Buffer('hello world');
@@ -143,7 +143,7 @@ Or `Client#deleteFile(filename, headers, callback)`:
 client.deleteFile('readme.markdown', function(err, res) {});
 ```
 
-You can delete **up to 1000** OSS objects an once:
+You can delete **up to 1000** OSS objects at once:
 
 ```javascript
 client.deleteMultiple(['test.json', 'readme.markdown'], function(err, res) {});
